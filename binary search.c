@@ -38,7 +38,8 @@ void main()
     u=n-1;
     mid=(l+u)/2;
 
-            printf("\n Enter item to be searched: ")
+            printf("\n Enter item to be searched: ");
+    scanf("%d",&item);
     	pos=Binary_Search(arr,l,u,item);
     	printf("\nElement found at position = %d",pos+1);
   getch();
