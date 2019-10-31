@@ -17,6 +17,19 @@ void main()
           }
   // linear search
         printf("\n Enter item to be searched : ");
+	 scanf("%d",&item);
+              for(i=0;i<10;i++)
+     {
+       count=count+1;
+       count=count+1;
+            if(item==a[i])
+  {
+                           printf("\n item found at position : %d",i+1 );
+                           flag=1;
+                           count=count+1;
+        break;
+                     }
+                       }
        
         count=count+1;
         if(!flag)
