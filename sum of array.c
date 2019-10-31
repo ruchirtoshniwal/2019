@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int count;
-int Sum(float a[100])
+int Sum(float a[100],int a)
 {
  float s=0.0;
   int i;
